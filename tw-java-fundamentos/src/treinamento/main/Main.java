@@ -13,16 +13,16 @@ Scanner scanner = new Scanner (System.in);
 		int numero1 = scanner.nextInt();
 		
 		
-	System.out.print("Digite a operação: ");	
+	System.out.print("Digite a operacao: ");	
 	
 		char operacao = scanner.next().charAt(0);
 		
-	
+
 	System.out.print("Digite o segundo numero: ");	
 		int numero2 = scanner.nextInt();
 	
 		
-	System.out.println(String.format("Você quer fazer operação %d %c %d", numero1, operacao, numero2 ));
+	System.out.println(String.format("Voce quer fazer operaaoo %d %c %d", numero1, operacao, numero2 ));
 		int resultado = 0;
 	
 	
@@ -44,13 +44,12 @@ Scanner scanner = new Scanner (System.in);
 			
 		} else {
 			
-			System.out.println ("Operação inválida");
+			System.out.println ("Operacao invalida");
 		}
 		
 		
 		System.out.println(String.format("%d %c %d = %d",numero1, operacao, numero2, resultado));		
 		
-		System.out.println ("Fim da Operação");
 	
 	scanner.close();
 		
